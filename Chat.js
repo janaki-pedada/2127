@@ -34,6 +34,7 @@ const Chat = () => {
 
   return (
     <div className="chat-container">
+      <div className="chat-title">Chat Interface</div>
       <div className="chat-box">
         {messages.map((msg, index) => (
           <ChatBubble key={index} message={msg} />
